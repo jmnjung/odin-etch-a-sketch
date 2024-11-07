@@ -1,0 +1,29 @@
+body {
+  background-color: #f4f4f4;
+  font-family: cursive, sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.container {
+  background-color: white;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
